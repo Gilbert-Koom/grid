@@ -2,5 +2,37 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+.motto {
+  font-size: clamp(15px, 7vw, 32px);
+}
+
+.title {
+  font-size: clamp(10px, 7vw, 16px);
+}
+
+body {
+  background-color: hsl(0, 0%, 98%);
   font-family: "Poppins";
+  margin: 1em;
+}
+body .containers {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 2em;
+}
+body .containers div {
+  background-color: white;
+}
+
+.image-container {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+}
+.image-container img {
+  width: 15%;
+  max-width: 50px;
 }/*# sourceMappingURL=style.css.map */
